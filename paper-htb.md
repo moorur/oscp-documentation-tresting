@@ -52,7 +52,6 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 20.10 seconds
 
 ```
-I refrained from doing a full port scan, as it was taking a long time, and it would cause the network to be flooded.
 
 ## Web Exploitation
 
@@ -337,4 +336,7 @@ Administrator. It usually boils down to these three things:
 uid=0(root) gid=0(root) groups=0(root)
 
 ```
-`sudo su` gives me root because running su as root doesn't prompt for a password, and specifying no user to switch to makes it assume it's root automatically.
+`sudo su` gives me root because running su as root doesn't prompt for a password for any user, and specifying no user to switch to makes it assume it's root automatically.
+
+User flag obtained from `/home/dwight/user.txt`
+Root flag obtained from `/root/root.txt`
