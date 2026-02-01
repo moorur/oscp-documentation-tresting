@@ -1,5 +1,14 @@
 ## Peppo from PG Labs
 
+## Short summary:
+
+Ident service showed the user eleanor.
+
+Ssh with the credentials `eleanor:eleanor` gives a restricted shell on the machine.
+
+Upon breaking out, privileged docker was used to create an SUID copy of `/bin/bash`
+
+
 ## Nmap
 
 The Peppo machine has been initiated with an nmap scan:
